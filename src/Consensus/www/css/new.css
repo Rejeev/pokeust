@@ -1,0 +1,127 @@
+body {
+    background: none;
+}
+
+.user-but,
+.user-close {
+    display: none;
+}
+
+.valueCard {
+    display: inline-block;
+}
+
+.card .name {
+    padding: 1vw;
+}
+
+.Admin {
+    height: auto;
+}
+
+.cards {
+    margin-top: 5vw;
+    padding: 1vw;
+}
+
+@media only screen and (max-device-width:768px) {
+    body {
+        background: none;
+    }
+    .poker-Modal {
+        width: 90vw;
+        margin: auto;
+        left: 5%;
+    }
+    .modal-header h3 {
+        font-size: 6vw;
+    }
+    .modal-body label {
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    .playing-field {
+        margin-right: 0;
+    }
+    .Admin {
+        padding-bottom: 7vw;
+        height: auto;
+        font-size: 2.5vw !important;
+    }
+    .cards {
+        margin-top: 20vw;
+        padding: 1vw;
+    }
+    .card .name {
+        font-size: 2vw;
+    }
+    .Admin span,
+    .Admin input {
+        /*display: block;
+        text-align: center;
+        margin: auto;*/
+    }
+    .valueCard {
+        width: 10vw;
+        height: 10vw;
+        margin: 1vw;
+        padding: 3vw;
+        font-size: 3vw;
+    }
+    .user-but {
+        display: block;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        background: #1dc4e5;
+        text-align: center;
+        position: fixed;
+        bottom: 10vw;
+        right: 10vw;
+    }
+    .user-but i {
+        color: #fff;
+        align-content: center;
+        font-size: 4vw;
+        margin-top: 2.5vw;
+    }
+    .form-control {
+        font-size: 2.5vw;
+    }
+    .hide-room .user-but {
+        display: none;
+    }
+    .hide {
+        display: none;
+    }
+    .players .head div {
+        display: inline-block;
+    }
+    .user-close {
+        float: right;
+    }
+    .user-close {
+        font-size: 3vw;
+    }
+    .players {
+        display: none;
+    }
+    .show-users {
+        display: block;
+        position: absolute;
+        width: 100vw;
+        min-height: 100vh;
+        height: auto;
+        z-index: 100;
+        border: none;
+        font-size: 4vw;
+        padding: 5vw;
+    }
+    .show-users h4 {
+        font-size: 6vw;
+        margin-bottom: 5vw;
+    }
+    .show-users li {
+        padding: 3vw 0;
+    }
+}

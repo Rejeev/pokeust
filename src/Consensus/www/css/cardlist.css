@@ -1,0 +1,67 @@
+﻿.valueCard {
+  background: #337ab7;
+  color: #fff;
+  text-align: center;
+  height: 5.5em;
+  width: 5em;  
+  line-height: 5.5em;
+  border-bottom: 1px solid #337AB7
+  position: relative;
+  display: block;
+  text-decoration: none;
+  box-shadow: -2em 1.5em 0 #337AB7
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  margin:2px;
+  text-align:center;
+}
+.valueCard:hover {
+  background: #ff6e42;
+  color: #fffcfb;
+  -webkit-transform: translate(0.9em, -0.9em);
+          transform: translate(0.9em, -0.9em);
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  box-shadow: -7em 7em 0 whitesmoke;
+}
+.valueCard:hover:before, .valueCard:hover:after {
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+}
+.valueCard:hover:before {
+  background: #b65234;
+  height:5.5em;
+  width: 1em;
+  top: .5em;
+  left: -1em; 
+}
+.valueCard:hover:after {
+  background: #b65234;
+  width: 1.25em;
+  bottom: -3.1em;
+  left: 1em;
+  height: 4.9em; 
+}
+.valueCard:before, .valueCard:after {
+  content: '';
+  position: absolute;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  width: .5em;
+}
+.valueCard:after {
+  height: 4em;
+  background: whitesmoke;
+  bottom: -2.25em;
+  left: 1.5em;
+  -webkit-transform: rotate(90deg) skew(0, 45deg);
+          transform: rotate(90deg) skew(0, 45deg);
+}
+.valueCard:before {
+  height: 2.5em;
+  background: whitesmoke;
+  top: .25em;
+  left: -.5em;
+  -webkit-transform: skewY(-45deg);
+          transform: skewY(-45deg);
+}
